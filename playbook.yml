@@ -1,0 +1,7 @@
+- name: Run a simple task on localhost
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Print a message
+      debug:
+        msg: "Hello from localhost!"
